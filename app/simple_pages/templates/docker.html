@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+{% block navigation %}
+     <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="{{ url_for('simple_pages.show', page="index")}}">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="git")}}">Git</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="{{ url_for('simple_pages.show', page="docker")}}">Docker</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="cicd")}}">CICD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="flask")}}">Flask</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="oops")}}">OOP-Design</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="aaa")}}">AAA Test</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="pylint")}}">PYLINT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="solid")}}">S.O.L.I.D.</a>
+                            </li>
+                        </ul>
+    {% endblock %}
+
+{% block content %}
+    <h3> Docker</h3>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <p>
+                    Docker is an open platform for developing, shipping, and running applications. Docker enables you to
+                    separate your applications from your infrastructure so you can deliver software quickly. With
+                    Docker, you can manage your infrastructure in the same ways you manage your applications. By taking
+                    advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can
+                    significantly reduce the delay between writing code and running it in production.
+                </p>
+                <h4>Container</h4>
+                Containerization is a software development strategy in which an application or service, as well as its
+                dependencies and configuration (expressed as deployment manifest files) are bundled together as a
+                container image. The containerized application can be tested individually and deployed to the host
+                operating system as a container image instance (OS)
+                A Docker container image is a tiny, stand-alone software package that includes the code, runtime, system
+                tools, system libraries, and settings needed to run a program.
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://files.realpython.com/media/Python-Docker-Tutorials_Watermarked.f9834dc9df9a.jpg"
+                             style="height: 50% !important; width: 100%"/>
+                    </div>
+                    <div class="col-8">
+                        <h4>Images</h4>
+                        An image is a read-only template with instructions for creating a Docker container. Often, an
+                        image is based on another image, with some additional customization. For example, you may build
+                        an image which is based on the ubuntu image, but installs the Apache web server and your
+                        application, as well as the configuration details needed to make your application run.
+                    </div>
+                </div>
+                <div class="row">
+                    <a href="https://hub.docker.com/repository/docker/arunkatta97/project-1"><h4>Docker Repository:
+                        Project-1</h4></a>
+
+
+                </div>
+                <div class="row">
+                    <h4>
+                        Docker Commands
+                    </h4>
+                    <p>
+                    <ul>
+                        <li><b> docker –version </b> : This command is used to get the currently installed version of
+                            docker
+                        </li>
+                        <li><b> docker pull </b> : This command is used to pull images from the docker repository</li>
+                        <li><b> docker run </b> : This command is used to create a container from an image</li>
+                        <li><b> docker ps </b> : This command is used to list the running containers</li>
+                        <li><b> docker exec</b> : This command is used to access the running container</li>
+                        <li><b> docker stop </b> : This command stops a running container</li>
+
+                    </ul>
+                    </p>
+                </div>
+                <
+            </div>
+            <div class="col-4">
+
+                <img src="https://www.cloudsigma.com/wp-content/uploads/cgroups-docker.jpg"
+                             style="height: 50% !important; width: 100%"/>
+                    <br>
+                    <br>
+                    <br>
+
+
+
+            </div>
+        </div>
+
+    </div>
+{% endblock %}

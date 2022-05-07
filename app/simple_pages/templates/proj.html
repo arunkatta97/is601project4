@@ -1,0 +1,128 @@
+{% extends "base.html" %}
+{% block navigation %}
+     <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="{{ url_for('simple_pages.show', page="index")}}">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="{{ url_for('simple_pages.show', page="git")}}">Git</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="docker")}}">Docker</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="cicd")}}">CICD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="flask")}}">Flask</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="oops")}}">OOP-Design</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="aaa")}}">AAA Test</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="pylint")}}">PYLINT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="solid")}}">S.O.L.I.D.</a>
+                            </li>
+                        </ul>
+    {% endblock %}
+
+{% block content %}
+    <h3> Git</h3>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <h4>Branch</h4>
+                In Git, a branch is analogous to a tree branch. A tree branch is connected to the trunk, which is the
+                center section of the tree. While branches can grow and fall off, the trunk remains compact and is the
+                only portion of the tree that can be said to be alive and well. Similarly, a Git branch allows you to
+                continue creating and coding a new feature or software modification without affecting the rest of the
+                project. Branches can also be thought of as a new line of development in a project.
+                The master branch is Git's default or primary branch (similar to a trunk of the tree). The main branch
+                is created at the same time as the repository (or the default branch).
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://initialcommit.com/img/initialcommit/baby-git-release.png"
+                             style="height: 50% !important; width: 100%"/>
+                    </div>
+                    <div class="col-8">
+                        <h4>Commit</h4>
+                        The term "commit" is used in Git to refer to the act of saving changes.
+                        Git does not automatically add modifications to a commit. Before performing the Git commit
+                        command, you must specify which file and modifications need to be preserved.
+                        The commit command only saves changes in Git's local repository, not on remote servers.
+                    </div>
+                </div>
+                <div class="row">
+                    <h4>Merge</h4>
+                    <p>
+                        To merge modifications from another branch, use the "merge" command.
+                        The current checked out HEAD branch is always the integration's target (i.e. the branch that
+                        gets modifications).
+                        While Git can handle the majority of integrations automatically, some modifications will cause
+                        conflicts that the user must resolve. In our online book, Merge Conflicts, you can learn more
+                        about how to deal with them. The master branch is Git's default or primary branch (similar to a
+                        trunk of the tree). The main branch is created at the same time as the repository (or the
+                        default branch).
+
+                    </p>
+
+                </div>
+                <div class="row">
+                    <h4>
+                        Tags
+                    </h4>
+                    <p>
+                        The git tag command and the Git idea of tagging will be discussed in this paper. Tags are a type
+                        of remark that refers to a specific point in Git's history. Tagging is a method of capturing a
+                        certain point in time for a specific version release (i.e. v1.0.1). A tag is similar to a
+                        non-changing branch. Tags, unlike branches, have no history of commits after they are formed.
+                        Visit the git branch page for additional information about branches. This page will go over the
+                        many types of tags, how to create tags, how to list all tags, how to delete tags, how to share
+                        tags, and more.
+                    </p>
+                </div>
+                <div class="row">
+                    <h4>
+                        Repository
+
+                    </h4>
+                    <p>
+
+                        The repository in Git is similar to a VCS data structure for storing metadata for a set of files
+                        and folders. It holds both the file collection and the history of changes made to those files.
+                        In Git, a repository is equivalent to a project folder. All project-related data is stored in a
+                        repository. Different projects have their own repositories.
+
+                    </p>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="https://i.ytimg.com/vi/Uszj_k0DGsg/maxresdefault.jpg"
+                             style="height: 50% !important; width: 100%"/>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <img src="https://www.cloudsavvyit.com/p/uploads/2019/10/e713ed70-1.png?width=1198&trim=1,1&bg-color=000&pad=1,1"
+                             style="height: 50% !important; width: 100%"/>
+
+
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
