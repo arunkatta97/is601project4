@@ -1,0 +1,55 @@
+2022-05-03 23:23:40,865 [INFO] werkzeug: 172.23.0.1 - - [03/May/2022 23:23:40] "GET / HTTP/1.1" 200 -
+2022-05-03 23:23:41,564 [INFO] werkzeug: 172.23.0.1 - - [03/May/2022 23:23:41] "GET / HTTP/1.1" 200 -
+2022-05-03 23:23:43,553 [INFO] werkzeug: 172.23.0.1 - - [03/May/2022 23:23:43] "GET /about HTTP/1.1" 200 -
+2022-05-03 23:23:44,689 [INFO] werkzeug: 172.23.0.1 - - [03/May/2022 23:23:44] "GET /welcome HTTP/1.1" 200 -
+2022-05-03 23:24:04,291 [INFO] werkzeug: 172.23.0.1 - - [03/May/2022 23:24:04] "GET / HTTP/1.1" 200 -
+2022-05-03 23:24:06,960 [INFO] werkzeug: 172.23.0.1 - - [03/May/2022 23:24:06] "GET /welcome HTTP/1.1" 200 -
+2022-05-03 23:24:07,979 [INFO] werkzeug: 172.23.0.1 - - [03/May/2022 23:24:07] "GET /git HTTP/1.1" 200 -
+2022-05-03 23:24:11,264 [INFO] werkzeug: 172.23.0.1 - - [03/May/2022 23:24:11] "GET /docker HTTP/1.1" 200 -
+2022-05-03 23:24:11,475 [INFO] werkzeug: 172.23.0.1 - - [03/May/2022 23:24:11] "GET /docker HTTP/1.1" 200 -
+2022-05-03 23:24:12,163 [INFO] werkzeug: 172.23.0.1 - - [03/May/2022 23:24:12] "GET /welcome HTTP/1.1" 200 -
+2022-05-03 23:24:13,321 [INFO] werkzeug: 172.23.0.1 - - [03/May/2022 23:24:13] "GET /about HTTP/1.1" 200 -
+2022-05-03 23:24:13,600 [INFO] werkzeug: 172.23.0.1 - - [03/May/2022 23:24:13] "GET /about HTTP/1.1" 200 -
+2022-05-03 23:31:03,056 [INFO] werkzeug: 172.23.0.1 - - [03/May/2022 23:31:03] "GET /about HTTP/1.1" 200 -
+2022-05-03 23:31:04,398 [INFO] werkzeug: 172.23.0.1 - - [03/May/2022 23:31:04] "GET /welcome HTTP/1.1" 200 -
+2022-05-03 23:31:05,345 [INFO] werkzeug: 172.23.0.1 - - [03/May/2022 23:31:05] "GET /docker HTTP/1.1" 200 -
+2022-05-03 23:31:06,198 [INFO] werkzeug: 172.23.0.1 - - [03/May/2022 23:31:06] "GET /git HTTP/1.1" 200 -
+2022-05-03 23:32:01,536 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-05-03 23:33:11,857 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-03 23:33:12,010 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-03 23:33:52,782 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-03 23:33:52,896 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-05 20:37:27,339 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:37:27] "GET / HTTP/1.1" 200 -
+2022-05-05 20:37:27,509 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:37:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-05-05 20:37:31,513 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:37:31] "GET / HTTP/1.1" 200 -
+2022-05-05 20:37:33,378 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:37:33] "GET /about HTTP/1.1" 200 -
+2022-05-05 20:37:34,639 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:37:34] "GET /welcome HTTP/1.1" 200 -
+2022-05-05 20:37:35,817 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:37:35] "GET /git HTTP/1.1" 200 -
+2022-05-05 20:37:37,463 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:37:37] "GET /docker HTTP/1.1" 200 -
+2022-05-05 20:37:38,918 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:37:38] "GET / HTTP/1.1" 200 -
+2022-05-05 20:37:50,623 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:37:50] "GET /about HTTP/1.1" 200 -
+2022-05-05 20:37:51,958 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:37:51] "GET /welcome HTTP/1.1" 200 -
+2022-05-05 20:37:53,110 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:37:53] "GET / HTTP/1.1" 200 -
+2022-05-05 20:38:25,140 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:38:25] "GET /login HTTP/1.1" 200 -
+2022-05-05 20:38:38,945 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:38:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-05 20:38:38,966 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:38:38] "GET /login HTTP/1.1" 200 -
+2022-05-05 20:38:41,573 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:38:41] "GET /register HTTP/1.1" 200 -
+2022-05-05 20:39:12,828 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:39:12] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-05-05 20:39:12,863 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:39:12] "GET /login HTTP/1.1" 200 -
+2022-05-05 20:39:28,909 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:39:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-05 20:39:29,154 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:39:29] "GET /dashboard HTTP/1.1" 200 -
+2022-05-05 20:39:35,537 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:39:35] "GET /songs/upload HTTP/1.1" 200 -
+2022-05-05 20:39:55,665 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:39:55] "[32mPOST /songs/upload HTTP/1.1[0m" 302 -
+2022-05-05 20:39:55,762 [INFO] werkzeug: 172.23.0.1 - - [05/May/2022 20:39:55] "GET /dashboard HTTP/1.1" 200 -
+2022-05-06 00:52:31,676 [INFO] werkzeug: 172.23.0.1 - - [06/May/2022 00:52:31] "GET /dashboard HTTP/1.1" 200 -
+2022-05-07 19:26:34,408 [INFO] werkzeug: 172.23.0.1 - - [07/May/2022 19:26:34] "GET / HTTP/1.1" 200 -
+2022-05-07 19:32:44,735 [INFO] werkzeug: 172.24.0.1 - - [07/May/2022 19:32:44] "GET / HTTP/1.1" 200 -
+2022-05-07 19:33:07,180 [INFO] werkzeug: 172.24.0.1 - - [07/May/2022 19:33:07] "GET / HTTP/1.1" 200 -
+2022-05-07 19:33:08,286 [INFO] werkzeug: 172.24.0.1 - - [07/May/2022 19:33:08] "GET /git HTTP/1.1" 200 -
+2022-05-07 19:33:09,218 [INFO] werkzeug: 172.24.0.1 - - [07/May/2022 19:33:09] "GET /docker HTTP/1.1" 200 -
+2022-05-07 19:33:11,887 [INFO] werkzeug: 172.24.0.1 - - [07/May/2022 19:33:11] "GET /register HTTP/1.1" 200 -
+2022-05-07 19:33:30,658 [INFO] werkzeug: 172.24.0.1 - - [07/May/2022 19:33:30] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-05-07 19:33:30,684 [INFO] werkzeug: 172.24.0.1 - - [07/May/2022 19:33:30] "[32mGET /login HTTP/1.1[0m" 302 -
+2022-05-07 19:33:30,820 [INFO] werkzeug: 172.24.0.1 - - [07/May/2022 19:33:30] "GET /dashboard HTTP/1.1" 200 -
+2022-05-07 19:35:07,399 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-07 19:35:07,535 [INFO] flask_wtf.csrf: The CSRF token is missing.
