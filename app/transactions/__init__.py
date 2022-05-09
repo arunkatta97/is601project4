@@ -22,7 +22,7 @@ def transactions_browse(page):
     pagination = Transaction.query.paginate(page, per_page, error_out=False)
     data = pagination.items
     try:
-        return render_template('browse_Transactions.html',data=data,pagination=pagination)
+        return render_template('browse_transactions.html',data=data,pagination=pagination)
     except TemplateNotFound:
         abort(404)
 
