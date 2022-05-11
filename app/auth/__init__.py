@@ -65,14 +65,19 @@ def logout():
 
 
 @auth.route('/dashboard', methods=['GET'], defaults={"page": 1})
+@auth.route('/dashboard/<int:page>', methods=['GET'])
 @login_required
 def dashboard(page):
     page = page
     per_page = 1000
     pagination = Transaction.query.paginate(page, per_page, error_out=False)
     data = pagination.items
+    balance = 0
+    for transaction in data:
+        print (transaction.amount)
+        balance = balance + int(transaction.amount)
     try:
-        return render_template('dashboard.html', data=data, pagination=pagination)
+        return render_template('dashboard.html',data=data, balance=balance,pagination=pagination)
     except TemplateNotFound:
         abort(404)
 

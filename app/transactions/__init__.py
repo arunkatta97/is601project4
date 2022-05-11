@@ -38,11 +38,11 @@ def transactions_upload():
         form.file.data.save(filepath)
         #user = current_user
         list_of_transactions = []
-        with open(filepath) as file:
+        with open(filepath, encoding='utf-8-sig') as file:
             csv_file = csv.DictReader(file)
             for row in csv_file:
-                list_of_transactions.append(Transaction(row['AMOUNT'],row['TYPE']))
-
+                amount = int(row['AMOUNT'])
+                list_of_transactions.append(Transaction(amount, row['TYPE']))
         current_user.transactions = list_of_transactions
         db.session.commit()
         log.info(f" transactions uploaded by user")
